@@ -4,13 +4,14 @@ import (
 	"fmt"
 
 	abc "gitlab.xxx.yyy./zzz/www_vvv"
+	abc "gitlab.xxx.yyy./zzz/www_vvv/ABC"
 )
 
 func main() {
 	fmt.Print("Nothing yet")
-	var aTask Task
+	var aTask abc.Task
 	aTask.TaskID = 1
-	aTask.Keys = make(map[Key]bool)
+	aTask.Keys = make(map[abc.Key]bool)
 	fmt.Print(aTask)
 	abc.ABC()
 }
