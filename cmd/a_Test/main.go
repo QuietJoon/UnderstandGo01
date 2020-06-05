@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	abc "gitlab.xxx.yyy./zzz/www_vvv"
 )
 
 func main() {
@@ -10,5 +12,5 @@ func main() {
 	aTask.TaskID = 1
 	aTask.Keys = make(map[Key]bool)
 	fmt.Print(aTask)
-	ABC()
+	abc.ABC()
 }
